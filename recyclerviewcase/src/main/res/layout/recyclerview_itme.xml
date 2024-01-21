@@ -4,6 +4,7 @@
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
   android:background="@drawable/item_background"
+  android:layout_marginBottom="10dp"
   android:orientation="horizontal">
 
   <TextView
@@ -17,6 +18,7 @@
     android:textSize="20sp" />
 
   <TextView
+    android:id="@+id/username"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginStart="10dp"
